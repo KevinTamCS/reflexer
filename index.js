@@ -1,6 +1,6 @@
 let count = 0
 let timerOn = false
-let timeLeft = 1
+let timeLeft = 60
 
 function increment() {
     if (!timerOn) {
