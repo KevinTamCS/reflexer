@@ -14,6 +14,16 @@
     text-align: center;
 }
 
-#click-button {
+#button-div {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    min-height: 85vh;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }

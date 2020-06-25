@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Button Press Game</title>
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
-</head>
-<body>
-  <h2 id="title">Click the button as many times as you can in 60 seconds!</h2>
-  <h3 id="timer">Click the button below to start the timer.</h3>
-  <br>
-  <h1 id="clicks">0 Clicks</h1>
-  <button id="click-button" onclick="increment()">Click me!</button>
-</body>
+  <head>
+    <title>Button Press Game</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <main>
+      <h2 id="title">
+        Click the button as many times as you can in 60 seconds!
+      </h2>
+      <h3 id="timer">Click the button below to start the timer.</h3>
+      <br />
+      <h1 id="clicks">0 Clicks</h1>
+      <div id="button-div">
+        <button id="click-button" onclick="increment()">Click me!</button>
+      </div>
+    </main>
+    <footer>
+      <p>© 2020 Kevin Tam</p>
+
+      <a
+        href="https://github.com/KevinTamCS/reflexer"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Source Code</a>
+
+      <span>&nbsp;|</span>
+
+      <a
+        href="https://kevintamcs.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Website
+      </a>
+    </footer>
+  </body>
 </html>
